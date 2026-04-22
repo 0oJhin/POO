@@ -1,3 +1,4 @@
+package exercicio05;
 public class Leitor {
 
     private String nome;
