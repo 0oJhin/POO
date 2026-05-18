@@ -1,3 +1,4 @@
+package AtividadeFixacao02;
 public class Pessoa {
     //atributos
     String nome;

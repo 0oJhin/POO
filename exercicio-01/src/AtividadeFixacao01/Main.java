@@ -1,3 +1,4 @@
+package AtividadeFixacao01;
 public class Main {
     public static void main(String[] args) {
         // implementar aqui a regra de negocio

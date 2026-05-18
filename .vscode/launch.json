@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "atv10_colecoes.Main",
+            "projectName": "POO_b2a7ba66"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "atv09_colecoes.Main",
+            "projectName": "POO_b2a7ba66"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "atv08_colecoes.Main",
+            "projectName": "POO_b2a7ba66"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "atv07_colecoes.Main",
+            "projectName": "POO_b2a7ba66"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "atv06_colecoes.Main",
+            "projectName": "POO_b2a7ba66"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "atv05_colecoes.Main",
+            "projectName": "POO_b2a7ba66"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "AtividadeFixacao02.Main",
+            "projectName": "POO_b2a7ba66"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "AtividadeFixacao01.Main",
+            "projectName": "POO_b2a7ba66"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

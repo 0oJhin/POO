@@ -1,3 +1,4 @@
+package AtividadeFixacao01;
 public class Gato {
 
     // atributos
