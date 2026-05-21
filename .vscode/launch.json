@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "atv02_excecoes.Main",
+            "projectName": "POO_b2a7ba66"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "atv01_excecoes.Main",
+            "projectName": "POO_b2a7ba66"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "atv10_colecoes.Main",
             "projectName": "POO_b2a7ba66"
         },
