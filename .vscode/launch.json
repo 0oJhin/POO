@@ -8,6 +8,27 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "atv03_FlowLayout.Main",
+            "projectName": "POO_b2a7ba66"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "atv02_FlowLayout.Main",
+            "projectName": "POO_b2a7ba66"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "atv01_FlowLayout.Main",
+            "projectName": "POO_b2a7ba66"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "atv02_excecoes.Main",
             "projectName": "POO_b2a7ba66"
         },

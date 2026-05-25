@@ -29,8 +29,8 @@ public void verificarCodigo(Integer codigo){
 }
 public void listarFuncionarios(){
     System.out.println("Listagem de funcionarios atual");
-    for(Map.Entry<Integer, Funcionario> entrada : funcionarios.entrySet()){
-        System.out.println("Codigo: " + entrada.getKey() +" | " + entrada.getValue());
+    for(Map.Entry<Integer, Funcionario> funcionario : funcionarios.entrySet()){
+        System.out.println("Codigo: " + funcionario.getKey() +" | " + funcionario.getValue());
     }
     System.out.println("Fim da listagem de funcionarios");
 }
