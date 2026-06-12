@@ -13,8 +13,31 @@
       <sourceFolder url="file://$MODULE_DIR$/exercicio-12/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercicio-13/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercicio-14/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exercicio-32/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exercicio-33/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exercicio-34/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-15/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-16/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-17/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-18/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-19/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-20/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-21/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-22/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-23/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-24/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-25/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-26/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-27/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-28/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-29/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-30/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-31/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-56/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="AbsoluteLayout" level="project" />
+    <orderEntry type="library" name="mysql-connector-j-9.3.0" level="project" />
   </component>
 </module>
