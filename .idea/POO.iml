@@ -13,9 +13,6 @@
       <sourceFolder url="file://$MODULE_DIR$/exercicio-12/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercicio-13/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercicio-14/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Exercicio-32/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Exercicio-33/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Exercicio-34/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercicio-15/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercicio-16/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercicio-17/src" isTestSource="false" />
@@ -33,6 +30,9 @@
       <sourceFolder url="file://$MODULE_DIR$/exercicio-29/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercicio-30/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercicio-31/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-32/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-33/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-34/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercicio-56/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
