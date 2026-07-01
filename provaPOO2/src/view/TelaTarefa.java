@@ -1,4 +1,6 @@
 package view;
 
-public class TelaTarefa {
+import javax.swing.*;
+
+public class TelaTarefa extends JFrame {
 }
