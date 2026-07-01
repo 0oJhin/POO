@@ -1,0 +1,20 @@
+drop database if exists ProvaCRUD;
+create database ProvaCRUD;
+USE ProvaCRUD;
+
+create table projeto(
+	id INT auto_increment PRIMARY KEY,
+    nome VARCHAR(50) NOt NULL,
+    cliente varchar(50),
+    responsavel varchar(50)
+);
+create table tarefa(
+	id_tarefa INT auto_increment PRIMARY KEY,
+	titulo varchar (50),
+    reponsavel varchar(50),
+    prioridade int,
+    id INT,
+    Constraint fk_projeto_tarefa
+    FOREIGN KEY(id)
+    REferences Projeto(id)
+);
