@@ -1,7 +1,9 @@
 package app;
-// import view.JanelaCadastrar;
+ import view.TelaProjeto;
+import view.TelaTarefa;
 public class Main{
     public static void main(String [] args){
-       // new
+        new TelaProjeto().setVisible(true);
+        new TelaTarefa().setVisible(true);
     }
 }
