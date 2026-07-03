@@ -1,107 +1,115 @@
 package view;
 
 import controller.TarefaController;
+import model.Projeto;
 import model.Tarefa;
 
 import javax.swing.*;
 
 public class TelaTarefa extends JFrame {
-    private JTextField txtId_tarefa;
-    private JTextField txtNome;
+    private JTextField txtIdTarefa;
     private JTextField txtTitulo;
     private JTextField txtResponsavel;
     private JTextField txtPrioridade;
-    private JTextField txtId;
+    private JTextField txtIdProjeto;
     private JTextArea txtResultado;
-    private JButton btncadastrar;
+    private JButton btnCadastrar;
     private JButton btnExcluir;
     private TarefaController controller;
-    public TelaTarefa(){
-        controller= new TarefaController();
-        setTitle("Cadastro projeto");
-        setSize(400,650);
+
+    public TelaTarefa() {
+        controller = new TarefaController();
+
+        setTitle("Cadastro Tarefa");
+        setSize(400, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(null);
         setLocationRelativeTo(null);
 
-        JLabel lblId = new JLabel ("ID_tarefa: ");
-        lblId.setBounds(30,30,80,25);
-        add(txtId_tarefa);
-        txtId_tarefa = new JTextField();
-        txtId_tarefa.setBounds(30,30,80,25);
-        add(txtId_tarefa);
+        JLabel lblIdTarefa = new JLabel("ID Tarefa:");
+        lblIdTarefa.setBounds(30, 30, 100, 25);
+        add(lblIdTarefa);
 
-        JLabel lblNome = new JLabel ("Nome");
-        lblNome.setBounds(90,65,220,25);
-        add(txtNome);
-        txtNome = new JTextField();
-        txtNome.setBounds(90,65,220,25);
-        add(txtNome);
+        txtIdTarefa = new JTextField();
+        txtIdTarefa.setBounds(140, 30, 180, 25);
+        add(txtIdTarefa);
 
-        JLabel lblTitulo = new JLabel ("Titulo: ");
-        lblTitulo.setBounds(30,60,80,25);
-        add(txtTitulo);
+        JLabel lblTitulo = new JLabel("Título:");
+        lblTitulo.setBounds(30, 65, 100, 25);
+        add(lblTitulo);
+
         txtTitulo = new JTextField();
-        txtTitulo.setBounds(30,60,80,25);
+        txtTitulo.setBounds(140, 65, 180, 25);
         add(txtTitulo);
 
-        JLabel lblPrioridade = new JLabel ("Prioridade: ");
-        lblPrioridade.setBounds(30,90,80,25);
-        add(txtPrioridade);
-        txtPrioridade = new JTextField();
-        txtPrioridade.setBounds(30,90,80,25);
-        add(txtPrioridade);
+        JLabel lblResponsavel = new JLabel("Responsável:");
+        lblResponsavel.setBounds(30, 100, 100, 25);
+        add(lblResponsavel);
 
-
-        JLabel lblResponsavel = new JLabel ("Responsavel: ");
-        lblResponsavel.setBounds(30,90,80,25);
-        add(txtResponsavel);
         txtResponsavel = new JTextField();
-        txtResponsavel.setBounds(30,90,80,25);
+        txtResponsavel.setBounds(140, 100, 180, 25);
         add(txtResponsavel);
 
-        JLabel lblIdid = new JLabel ("ID: ");
-        lblIdid.setBounds(30,30,80,25);
-        add(txtId);
-        txtId = new JTextField();
-        txtId.setBounds(30,30,80,25);
-        add(txtId);
+        JLabel lblPrioridade = new JLabel("Prioridade:");
+        lblPrioridade.setBounds(30, 135, 100, 25);
+        add(lblPrioridade);
 
-        btncadastrar = new JButton("Cadastrar");
-        btncadastrar.setBounds(30,120,220,25);
-        add(btncadastrar);
+        txtPrioridade = new JTextField();
+        txtPrioridade.setBounds(140, 135, 180, 25);
+        add(txtPrioridade);
 
-        btnExcluir = new JButton("excluir");
-        btnExcluir.setBounds(30,150,220,25);
+        JLabel lblIdProjeto = new JLabel("ID Projeto:");
+        lblIdProjeto.setBounds(30, 170, 100, 25);
+        add(lblIdProjeto);
+
+        txtIdProjeto = new JTextField();
+        txtIdProjeto.setBounds(140, 170, 180, 25);
+        add(txtIdProjeto);
+
+        btnCadastrar = new JButton("Cadastrar");
+        btnCadastrar.setBounds(30, 215, 140, 30);
+        add(btnCadastrar);
+
+        btnExcluir = new JButton("Excluir");
+        btnExcluir.setBounds(180, 215, 140, 30);
         add(btnExcluir);
 
         txtResultado = new JTextArea();
-        txtResultado.setBounds(170,150,130,30);
+        txtResultado.setBounds(30, 260, 290, 60);
         add(txtResultado);
 
-        btncadastrar.addActionListener(e -> {
-            String nome = txtNome.getText().trim();
+        btnCadastrar.addActionListener(e -> {
             String titulo = txtTitulo.getText().trim();
-            int prioridade = txtPrioridade.getText().trim();
-            int id = txtId.getText().trim();
-            Tarefa tarefa = new Tarefa(nome,titulo,prioridade,id);
+            String responsavel = txtResponsavel.getText().trim();
+            int prioridade = Integer.parseInt(txtPrioridade.getText().trim());
+            int idProjeto = Integer.parseInt(txtIdProjeto.getText().trim());
+
+            Projeto projeto = new Projeto();
+            projeto.setId(idProjeto);
+
+            Tarefa tarefa = new Tarefa(titulo, responsavel, prioridade, projeto);
+
             controller.inserirTarefa(tarefa);
-            txtResultado.setText("Pessoa Cadastrada");
-            txtNome.setText("");
+
+            txtResultado.setText("Tarefa cadastrada.");
+            limparCampos();
         });
 
         btnExcluir.addActionListener(e -> {
-            int id_tarefa = Integer.parseInt(txtId_tarefa.getText());
-            controller.excluirTarefa(id_tarefa);
-            txtResultado.setText("Projeto Removido");
-            txtId_tarefa.setText("");
-            txtNome.setText("");
-            txtTitulo.setText("");
-            txtPrioridade.setText("");
-            txtTitulo.setText("");
-            txtId.setText("");
+            int idTarefa = Integer.parseInt(txtIdTarefa.getText().trim());
 
+            controller.excluirTarefa(idTarefa);
+
+            txtResultado.setText("Tarefa removida.");
+            limparCampos();
         });
+    }
 
+    private void limparCampos() {
+        txtIdTarefa.setText("");
+        txtTitulo.setText("");
+        txtResponsavel.setText("");
+        txtPrioridade.setText("");
+        txtIdProjeto.setText("");
     }
 }

@@ -1,17 +1,19 @@
 package util;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+public class Conexao{
 
-public class Conexao {
-    private static final String URL="jdbc:mysql://localhost:3306/ProvaCRUD";
-    private static final String USUARIO="root";
-    private static final String SENHA="unifesspa";
-    public static Connection getConnection(){
-        try{
-            return DriverManager.getConnection(URL,USUARIO,SENHA);
-        }catch(SQLException e){
+    private static final String URL = "jdbc:mysql://localhost:3306/ProvaCRUD";
+    private static final String USUARIO = "root";
+    private static final String SENHA = "123456";
+
+    public static Connection getConnection() {
+        try {
+            return DriverManager.getConnection(URL, USUARIO, SENHA);
+        } catch (SQLException e) {
             System.out.println("Erro ao conectar ao banco: " + e.getMessage());
             return null;
         }
