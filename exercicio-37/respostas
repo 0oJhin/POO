@@ -1,0 +1,12 @@
+1. O SpringLayout permite posicionar componentes usando restrições entre as bordas dos elementos.
+ Diferente de layouts automáticos como FlowLayout e GridLayout, ele oferece maior controle sobre a posição dos componentes,
+ pois permite definir distâncias e alinhamentos manualmente.
+
+2. O método putConstraint() define uma restrição de posicionamento entre dois componentes.
+ Ele informa qual borda de um componente ficará relacionada a uma borda de outro componente, além da distância entre eles.
+
+3. No SpringLayout, as constantes representam bordas dos componentes:
+NORTH é a borda superior, SOUTH é a borda inferior, WEST é a borda esquerda e EAST é a borda direita.
+
+4. O Botão 2 foi posicionado 20 pixels abaixo do Botão 1, usando a borda superior do Botão 2 em relação à borda inferior do Botão 1.
+ Além disso, ele foi alinhado à esquerda do Botão 1, usando a mesma borda WEST.

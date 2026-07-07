@@ -34,10 +34,21 @@
       <sourceFolder url="file://$MODULE_DIR$/exercicio-33/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercicio-34/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercicio-56/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProvaPOO/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/provaPOO2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-05/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-06/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-35/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-36/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-37/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-38/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-39/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="AbsoluteLayout" level="project" />
     <orderEntry type="library" name="mysql-connector-j-9.3.0" level="project" />
+    <orderEntry type="library" name="mysql-connector-j-9.3.0 (2)" level="project" />
+    <orderEntry type="library" name="AbsoluteLayout (2)" level="project" />
   </component>
 </module>

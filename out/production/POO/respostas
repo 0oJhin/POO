@@ -1,0 +1,7 @@
+1.O GridLayout organiza os componentes em forma de grade, usando linhas e colunas.
+ Cada componente adicionado ocupa uma célula da grade, sendo distribuído da esquerda para a direita e de cima para baixo.
+2.new GridLayout(2, 3)
+o número 2 representa a quantidade de linhas, e o número 3 representa a quantidade de colunas. Nesse caso, a janela terá 2 linhas e 3 colunas.
+3.A principal diferença é que o GridLayout organiza os componentes em células iguais, formando uma grade.
+ Já o BorderLayout organiza os componentes em regiões específicas: norte, sul, leste, oeste e centro.
+4.Todos os componentes possuem o mesmo tamanho porque o GridLayout divide o espaço da janela igualmente entre todas as células da grade.

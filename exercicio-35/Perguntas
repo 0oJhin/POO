@@ -1,0 +1,10 @@
+1.
+O BorderLayout organiza os componentes da janela em cinco regiões específicas: norte, sul,leste,oeste ecentro.
+ Cada componente é adicionado a uma dessas regiões, facilitando a organização da interface de forma automática.
+
+ 2.O componente adicionado à região centro ocupa automaticamente o maior espaço disponível.
+ Isso acontece porque, após o BorderLayout posicionar os componentes nas regiões norte, sul, leste e oeste,
+ todo o espaco retante é destinado ao centro que sobrou.
+
+ 3.Esse método define o que acontece quando o usuário fecha a janela.
+  A opção JFrame.EXIT_ON_CLOSE faz com que a aplicação seja encerrada completamente ao clicar no botão de fechar da janela.

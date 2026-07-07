@@ -1,0 +1,18 @@
+1. Explique a função do componente JLabel em aplicações Java Swing.
+
+O JLabel é um componente utilizado para exibir informações na interface gráfica, como textos, imagens ou ambos ao mesmo tempo.
+Ele serve para apresentar informações ao usuário, sem permitir edição.
+
+2. Descreva o funcionamento do método getResource("borbo1.jpg").
+
+O método getResource() procura um arquivo de recurso dentro do mesmo pacote da classe ou no classpath da aplicação.
+ Nesse caso, ele localiza a imagem borbo1.jpg para que ela possa ser exibida no JLabel.
+
+3.
+
+setHorizontalTextPosition(): define a posição horizontal do texto em relação ao ícone (esquerda, centro ou direita).
+setVerticalTextPosition(): define a posição vertical do texto em relação ao ícone (acima, centro ou abaixo).
+
+4.
+
+A ToolTip é uma pequena mensagem exibida quando o usuário posiciona o ponteiro do mouse sobre um componente. Sua importância é fornecer informações ou orientações adicionais sem ocupar espaço permanente na interface.
