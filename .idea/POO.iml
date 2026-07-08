@@ -51,6 +51,10 @@
       <sourceFolder url="file://$MODULE_DIR$/exercicio-48/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercicio-49/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercicio-50/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-51/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-52/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-54/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercicio-55/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

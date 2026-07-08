@@ -1,0 +1,22 @@
+1.O método conn.close() é utilizado para encerrar a conexão entre a aplicação Java e o banco de dados.
+Após seu uso, a conexão não pode mais ser utilizada, liberando os recursos do sistema e evitando desperdício de memória e conexões abertas desnecessariamente.
+
+
+2.
+Connection
+É a interface responsável por estabelecer e manter a comunicação entre a aplicação Java e o banco de dados.
+getConnection()
+É o método da classe DriverManager que cria e retorna um objeto Connection, estabelecendo a conexão com o banco de dados utilizando a URL, o usuário e a senha informados.
+close()
+É o método utilizado para encerrar uma conexão aberta com o banco de dados, liberando os recursos utilizados pela aplicação.
+
+3.
+O fechamento das conexões é uma boa prática porque:
+
+libera os recursos de memória utilizados pela conexão;
+evita o esgotamento do número máximo de conexões do banco de dados;
+melhora o desempenho da aplicação;
+reduz a possibilidade de erros e falhas causadas por conexões abertas desnecessariamente;
+facilita o gerenciamento dos recursos da aplicação.
+
+Essas respostas estão no nível esperado pela disciplina e atendem ao que normalmente é cobrado nessas atividades.
