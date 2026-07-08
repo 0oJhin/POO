@@ -1,0 +1,10 @@
+1. O JButton é um componente gráfico usado para criar botões clicáveis em aplicações Java Swing.
+Ele pode conter texto, imagem ou os dois ao mesmo tempo.
+
+2. O método getActionCommand() retorna o comando associado ao botão que disparou o evento.
+ Assim, é possível identificar qual botão foi pressionado.
+
+3. A vantagem da classe interna é que ela pode acessar diretamente os atributos da classe principal, facilitando o tratamento dos eventos e deixando o código mais organizado.
+
+4. O comando System.exit(0) encerra completamente a aplicação.
+Em interfaces gráficas, ele é útil quando se deseja finalizar o programa ao clicar em um botão específico, como “Finalizar”.

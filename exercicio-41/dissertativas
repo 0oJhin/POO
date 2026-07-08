@@ -1,0 +1,11 @@
+1. O JLabel exibe textos informativos na tela.
+O JTextField permite que o usuário digite dados. O JButton representa um botão clicável para executar uma ação.
+
+2. O método setBounds(x, y, largura, altura) define a posição e o tamanho do componente.
+O x indica a distância da esquerda, o y indica a distância do topo, a largura define o tamanho horizontal e a altura define o tamanho vertical.
+
+3. O setLayout(null) desativa o gerenciador de layout automático.
+ Assim, cada componente precisa ser posicionado manualmente usando setBounds().
+
+4. O método setEnabled(false) desabilita o componente, impedindo que o usuário edite ou interaja com ele.
+Pode ser usado em campos somente leitura, como código gerado automaticamente pelo sistema.

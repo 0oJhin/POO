@@ -1,0 +1,8 @@
+1. O JButton cria botões clicáveis em interfaces Swing.
+Ele pode exibir texto, imagem ou os dois, e pode executar ações por meio de eventos.
+
+2. O getActionCommand() retorna o comando associado ao botão pressionado, permitindo identificar qual botão gerou o evento.
+
+3. A classe interna facilita o tratamento de eventos porque pode acessar diretamente os atributos da classe principal, como os botões e as strings de controle.
+
+4. O System.exit(0) encerra completamente a aplicação. Ele é usado no botão “Finalizar” para fechar o programa.

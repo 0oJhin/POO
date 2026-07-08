@@ -1,0 +1,9 @@
+1. O JTextField é usado para entrada de textos comuns.
+O JPasswordField também recebe texto, mas oculta os caracteres digitados, sendo indicado para senhas.
+
+2. O método getSource() retorna qual componente gerou o evento, permitindo identificar se o ENTER foi pressionado em campoTexto1, campoTexto2, campoTexto3 ou campoSenha.
+
+3. O comando setEditable(false) impede que o usuário altere o conteúdo do campo, deixando-o apenas para visualização.
+
+4. O método getPassword() é mais recomendado porque retorna a senha como um array de caracteres (char[]), que pode ser apagado da memória depois do uso.
+Já getText() retorna uma String, que permanece mais tempo na memória.

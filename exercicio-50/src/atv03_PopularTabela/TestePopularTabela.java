@@ -1,0 +1,17 @@
+package atv03_PopularTabela;
+
+public class TestePopularTabela {
+
+    public static void main(String[] args) {
+
+        System.out.println("Iniciando população da tabela pessoa...");
+
+        PopularTabelaPessoa popular = new PopularTabelaPessoa();
+
+        popular.inserirDados();
+
+        System.out.println("Processo finalizado.");
+
+    }
+
+}

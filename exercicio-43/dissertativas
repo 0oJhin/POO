@@ -1,0 +1,9 @@
+1. O JCheckBox permite múltiplas seleções independentes.
+Já o JRadioButton, quando usado com ButtonGroup, permite seleção exclusiva, ou seja, apenas uma opção fica marcada por vez.
+
+2. A classe ButtonGroup agrupa os JRadioButton, garantindo que somente um deles possa estar selecionado ao mesmo tempo.
+
+3. A interface ItemListener detecta mudanças de estado em componentes de seleção, como marcar ou desmarcar um JCheckBox ou selecionar um JRadioButton.
+
+4. O método itemStateChanged(ItemEvent event) é executado automaticamente quando o estado de um componente muda.
+Ele permite identificar o componente que disparou o evento e verificar se foi selecionado ou desmarcado.

@@ -1,0 +1,7 @@
+1. O JMenuBar representa a barra de menus da janela. O JMenu representa cada menu principal, como Cadastro, Relatórios e Ajuda. O JMenuItem representa cada opção clicável dentro de um menu.
+
+2. O método setMnemonic() define uma tecla de atalho para acessar menus ou itens pelo teclado, geralmente usando ALT junto com a letra configurada.
+
+3. O método setJMenuBar() adiciona a barra de menus à janela principal, fazendo com que ela apareça no topo da interface.
+
+4. O ActionListener permite tratar os cliques nos itens de menu. Quando o usuário clica em um item, o método actionPerformed() é executado e realiza a ação correspondente.

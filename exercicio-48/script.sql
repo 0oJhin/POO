@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS bancoTeste01;
+CREATE DATABASE bancoTeste01;
+USE bancoTeste01;
